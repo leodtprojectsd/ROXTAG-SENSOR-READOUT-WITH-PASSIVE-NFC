@@ -1,0 +1,10 @@
+Release Notes NVM eraser
+========================
+
+Released files: app_closed_nvmeraser.bin, app_closed_nvmeraser.hex
+
+Version 2
+    Build settings. By no longer using a board library, no pins are touched any more.
+
+Version 1
+    First release of this Non-Volatile memory eraser

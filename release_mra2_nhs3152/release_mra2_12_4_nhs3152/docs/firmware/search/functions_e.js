@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['sense_5fsensepillremoval',['Sense_SensePillRemoval',['../a00414.html#ga2915c2a78a244274a09b1fda35754bd1',1,'sense.h']]],
+  ['sense_5fstarttherapy',['Sense_StartTherapy',['../a00414.html#gafd1214618fdf9574d538506917386661',1,'sense.h']]],
+  ['sensespecific_5fdeinit',['SenseSpecific_DeInit',['../a00415.html#ga29557e6be88dd4e610900fe2b464971e',1,'sense_specific.h']]],
+  ['sensespecific_5fgetamountofgroups',['SenseSpecific_GetAmountOfGroups',['../a00415.html#gab0fc4b10fdc7afdc57961ce41a1a9f09',1,'sense_specific.h']]],
+  ['sensespecific_5fgetpillsingroup',['SenseSpecific_GetPillsInGroup',['../a00415.html#gab2dc1b4aa1507ec7d587735226a12634',1,'sense_specific.h']]],
+  ['sensespecific_5fgrouppositional',['SenseSpecific_GroupPositional',['../a00415.html#ga19a106516677d9130a2145455f459580',1,'sense_specific.h']]],
+  ['sensespecific_5finit',['SenseSpecific_Init',['../a00415.html#ga569ae1eeed406511abce2bcc28ab7626',1,'sense_specific.h']]],
+  ['sensespecific_5finitialpillcount',['SenseSpecific_InitialPillCount',['../a00415.html#gad91a7373c8fb790fd628cb1a749272f6',1,'sense_specific.h']]],
+  ['ssp0_5firqhandler',['SSP0_IRQHandler',['../a00481.html#ga56a77444d4b4985ba292102c14c94ed6',1,'startup.h']]],
+  ['startup_5fvarinit',['Startup_VarInit',['../a00481.html#gabf9682a2f14dd5eada5712b220db2e81',1,'startup.h']]],
+  ['storage_5fdeinit',['Storage_DeInit',['../a00482.html#ga75abea0be7fefec6285224dc0f82f5ac',1,'storage.h']]],
+  ['storage_5fgetcount',['Storage_GetCount',['../a00482.html#ga80e837c4eb77a8ff14057e1971e63083',1,'storage.h']]],
+  ['storage_5finit',['Storage_Init',['../a00482.html#gad04fe4fa8e78ef5572e4a39dec188c31',1,'storage.h']]],
+  ['storage_5fread',['Storage_Read',['../a00482.html#ga7ff9042e0e6194a3d9faf026693beda6',1,'storage.h']]],
+  ['storage_5freset',['Storage_Reset',['../a00482.html#ga345ce91da83ce1cea789068dfb587ed5',1,'storage.h']]],
+  ['storage_5fseek',['Storage_Seek',['../a00482.html#ga82112f49c64c590b321e1e02caf077f5',1,'storage.h']]],
+  ['storage_5fwrite',['Storage_Write',['../a00482.html#ga8140766c4b825016f5cb508c9dec2f73',1,'storage.h']]],
+  ['svc_5fhandler',['SVC_Handler',['../a00481.html#ga3e5ddb3df0d62f2dc357e64a3f04a6ce',1,'startup.h']]],
+  ['systick_5fconfig',['SysTick_Config',['../a00447.html#gacba48a1bd9af84307fe7274c082ac346',1,'core_cm0plus.h']]],
+  ['systick_5fhandler',['SysTick_Handler',['../a00481.html#gab5e09814056d617c521549e542639b7e',1,'startup.h']]]
+];

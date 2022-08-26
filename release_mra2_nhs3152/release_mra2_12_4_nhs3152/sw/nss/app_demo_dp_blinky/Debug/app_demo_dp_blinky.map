@@ -1,0 +1,1329 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+                              ./src/mainblinky.o (Board_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (LED_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                              ./src/mainblinky.o (Chip_Clock_System_BusyWait_ms)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_EEPROM_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o) (Chip_Flash_GetHighPowerMode)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_GPIO_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_IOCON_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_NFC_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o) (Chip_RTC_Init)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o) (Chip_SysCon_Peripheral_AssertReset)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                              (ResetISR)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o) (Diag_NFC_IRQHandler)
+C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o) (Chip_BusSync_WriteReg)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o) (memcpy)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o) (memset)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o) (__main)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+                              C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o) (__aeabi_idiv)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o) (__aeabi_idiv0)
+c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                              c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .group         0x00000000        0x8 ./src/crp.o
+ .text          0x00000000        0x0 ./src/crp.o
+ .data          0x00000000        0x0 ./src/crp.o
+ .bss           0x00000000        0x0 ./src/crp.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .group         0x00000000        0x8 ./src/mainblinky.o
+ .text          0x00000000        0x0 ./src/mainblinky.o
+ .data          0x00000000        0x0 ./src/mainblinky.o
+ .bss           0x00000000        0x0 ./src/mainblinky.o
+ .debug_macro   0x00000000      0x832 ./src/mainblinky.o
+ .debug_macro   0x00000000       0x1c ./src/mainblinky.o
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x34 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x00000000       0x58 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .text.LED_On   0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x832 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_System_SetClockDiv
+                0x00000000       0x50 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_System_SetClockFreq
+                0x00000000       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_SetClockDiv
+                0x00000000       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_GetClockDiv
+                0x00000000       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_SetClockFreq
+                0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_SPI0_GetClockFreq
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_SetClockDiv
+                0x00000000       0x2c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_GetClockDiv
+                0x00000000       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_SetClockFreq
+                0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_GetClockFreq
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Peripheral_DisableClock
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Peripheral_SetClockEnabled
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Peripheral_GetClockEnabled
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_SetClockSource
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Watchdog_GetClockSource
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .text.Chip_Clock_Clkout_GetClockSource
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.CommitAndFlush
+                0x00000000       0x60 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Write    0x00000000       0xa4 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_DeInit
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Flush
+                0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Write
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .text.Chip_EEPROM_Memset
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_GetHighPowerMode
+                0x00000000       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_SetNumWaitStates
+                0x00000000       0x2c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_GetNumWaitStates
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .text.Chip_Flash_SetHighPowerMode
+                0x00000000       0x40 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_info    0x00000000      0x311 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_abbrev  0x00000000      0x11a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_loc     0x00000000       0x4d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_aranges
+                0x00000000       0x38 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_ranges  0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x17d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_line    0x00000000      0x4ba C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_str     0x00000000     0x5e91 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .comment       0x00000000       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .debug_frame   0x00000000       0x60 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .ARM.attributes
+                0x00000000       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(flash_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x00000000       0x30 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x24 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .text.Chip_GPIO_SetupPinInt
+                0x00000000       0x6c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_DeInit
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_GetPinConfig
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_SetAnabusGrounded
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_GetAnabusGrounded
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .text.Chip_IOCON_GroundAnabus
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_Int_GetEnabledMask
+                0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_DeInit
+                0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_SetTargetAddress
+                0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_GetTargetAddress
+                0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_GetLastAccessInfo
+                0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_WordWrite
+                0x00000000       0x38 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .text.Chip_NFC_ByteRead
+                0x00000000       0x38 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_DeInit
+                0x00000000       0x34 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_SetCalibration
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_GetCalibration
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_SetControl
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_GetControl
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_SetReload
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_GetReload
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_GetRemaining
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Wakeup_IsRunning
+                0x00000000       0x34 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Time_SetValue
+                0x00000000       0x24 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_SetEnabledMask
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_GetEnabledMask
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_GetRawStatus
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .text.Chip_RTC_Int_ClearRawStatus
+                0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_IVT_SetAddress
+                0x00000000       0x3c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_IVT_GetAddress
+                0x00000000       0x24 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Peripheral_DisablePower
+                0x00000000       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Peripheral_SetPowerDisabled
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Peripheral_GetPowerDisabled
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Reset_GetSource
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_Reset_ClearSource
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_SetEnabledMask
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_GetEnabledMask
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_GetStatus
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_ClearStatus
+                0x00000000       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_SetPIORisingEdge
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_StartLogic_GetPIORisingEdge
+                0x00000000       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .text.Chip_SysCon_GetDeviceID
+                0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .text.Diag_DeInit
+                0x00000000       0x58 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .text.Diag_TrackRtcUpdate
+                0x00000000       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .text.Diag_Get
+                0x00000000        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .group         0x00000000        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .data          0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .bss           0x00000000        0x0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text.Chip_BusSync_WriteReg
+                0x00000000       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x12d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x5b2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x16 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x22 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x3a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x241 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000      0x12a C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x26 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x96 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x3b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .debug_macro   0x00000000       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+Flash30          0x00000000         0x00007800         xr
+SRAM8            0x10000000         0x00001ff0         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/crp.o
+LOAD ./src/mainblinky.o
+LOAD C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a
+LOAD C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00000000                __base_Flash30 = 0x0
+                0x00000000                __base_Flash = 0x0
+                0x00007800                __top_Flash30 = 0x7800
+                0x00007800                __top_Flash = 0x7800
+                0x10000000                __base_SRAM8 = 0x10000000
+                0x10000000                __base_RAM = 0x10000000
+                0x10001ff0                __top_SRAM8 = 0x10001ff0
+                0x10001ff0                __top_RAM = 0x10001ff0
+
+.text           0x00000000      0x9e0
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x9e0 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000000 ADDR (.data)
+                0x000000c8        0x4 LONG 0x0 SIZEOF (.data)
+                0x000000cc                __data_section_table_end = .
+                0x000000cc                __bss_section_table = .
+                0x000000cc        0x4 LONG 0x10000000 ADDR (.bss)
+                0x000000d0        0x4 LONG 0x8 SIZEOF (.bss)
+                0x000000d4                __bss_section_table_end = .
+                0x000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000d4       0x94 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                0x00000100                Startup_VarInit
+                0x00000144                ResetISR
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000168      0x194 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x00000300       0x28 ./src/mainblinky.o
+                0x00000300                main
+ .text.Board_Init
+                0x00000328       0xe8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+                0x00000328                Board_Init
+ .text.LED_SetState
+                0x00000410       0x48 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x00000410                LED_SetState
+ .text.LED_GetState
+                0x00000458       0x4c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x00000458                LED_GetState
+ .text.LED_Off  0x000004a4        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000004a4                LED_Off
+ .text.LED_Init
+                0x000004b0       0x48 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000004b0                LED_Init
+ .text.LED_Toggle
+                0x000004f8       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000004f8                LED_Toggle
+ .text.Chip_Clock_System_GetClockDiv
+                0x0000050c       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x0000050c                Chip_Clock_System_GetClockDiv
+ .text.Chip_Clock_System_GetClockFreq
+                0x00000520       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x00000520                Chip_Clock_System_GetClockFreq
+ .text.Chip_Clock_System_BusyWait_us
+                0x00000534       0x40 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x00000534                Chip_Clock_System_BusyWait_us
+ .text.Chip_Clock_System_BusyWait_ms
+                0x00000574       0x30 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x00000574                Chip_Clock_System_BusyWait_ms
+ .text.Chip_Clock_Peripheral_EnableClock
+                0x000005a4       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x000005a4                Chip_Clock_Peripheral_EnableClock
+ .text.Chip_Clock_Clkout_SetClockSource
+                0x000005c0       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                0x000005c0                Chip_Clock_Clkout_SetClockSource
+ .text.Chip_EEPROM_Init
+                0x000005d0       0x58 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                0x000005d0                Chip_EEPROM_Init
+ .text.Chip_EEPROM_Read
+                0x00000628       0x68 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                0x00000628                Chip_EEPROM_Read
+ .text.Chip_GPIO_Init
+                0x00000690        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+                0x00000690                Chip_GPIO_Init
+ .text.Chip_IOCON_Init
+                0x0000069c        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                0x0000069c                Chip_IOCON_Init
+ .text.Chip_IOCON_UngroundAnabus
+                0x000006a8       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                0x000006a8                Chip_IOCON_UngroundAnabus
+ .text.Chip_IOCON_SetPinConfig
+                0x000006b8       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                0x000006b8                Chip_IOCON_SetPinConfig
+ .text.Chip_NFC_GetStatus
+                0x000006e0        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x000006e0                Chip_NFC_GetStatus
+ .text.Chip_NFC_Int_SetEnabledMask
+                0x000006e8        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x000006e8                Chip_NFC_Int_SetEnabledMask
+ .text.Chip_NFC_Int_GetRawStatus
+                0x000006f0        0x8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x000006f0                Chip_NFC_Int_GetRawStatus
+ .text.Chip_NFC_Int_ClearRawStatus
+                0x000006f8       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x000006f8                Chip_NFC_Int_ClearRawStatus
+ .text.Chip_NFC_Init
+                0x00000718       0x2c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                0x00000718                Chip_NFC_Init
+ .text.Chip_RTC_Init
+                0x00000744        0xc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                0x00000744                Chip_RTC_Init
+ .text.Chip_RTC_Time_GetValue
+                0x00000750       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                0x00000750                Chip_RTC_Time_GetValue
+ .text.Chip_SysCon_Peripheral_AssertReset
+                0x00000768       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                0x00000768                Chip_SysCon_Peripheral_AssertReset
+ .text.Chip_SysCon_Peripheral_DeassertReset
+                0x0000077c       0x14 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                0x0000077c                Chip_SysCon_Peripheral_DeassertReset
+ .text.Chip_SysCon_Peripheral_EnablePower
+                0x00000790       0x18 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                0x00000790                Chip_SysCon_Peripheral_EnablePower
+ .text.defaultIntHandler
+                0x000007a8       0x1c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                0x000007a8                NFC_IRQHandler
+                0x000007a8                I2C0_IRQHandler
+                0x000007a8                PMUBOD_IRQHandler
+                0x000007a8                HardFault_Handler
+                0x000007a8                SysTick_Handler
+                0x000007a8                PendSV_Handler
+                0x000007a8                NMI_Handler
+                0x000007a8                CT16B0_IRQHandler
+                0x000007a8                PIO0_8_IRQHandler
+                0x000007a8                PIO0_4_IRQHandler
+                0x000007a8                TSEN_IRQHandler
+                0x000007a8                SSP0_IRQHandler
+                0x000007a8                RTC_IRQHandler
+                0x000007a8                PMUFLD_IRQHandler
+                0x000007a8                PIO0_6_IRQHandler
+                0x000007a8                PIO0_5_IRQHandler
+                0x000007a8                PIO0_1_IRQHandler
+                0x000007a8                PIO0_IRQHandler
+                0x000007a8                ADC_IRQHandler
+                0x000007a8                PIO0_3_IRQHandler
+                0x000007a8                WDT_IRQHandler
+                0x000007a8                SVC_Handler
+                0x000007a8                PIO0_10_IRQHandler
+                0x000007a8                PIO0_7_IRQHandler
+                0x000007a8                CT32B0_IRQHandler
+                0x000007a8                PIO0_0_IRQHandler
+                0x000007a8                PIO0_2_IRQHandler
+                0x000007a8                EEPROM_IRQHandler
+                0x000007a8                RTCPWREQ_IRQHandler
+                0x000007a8                RFFIELD_IRQHandler
+                0x000007a8                C2D_IRQHandler
+                0x000007a8                FLASH_IRQHandler
+                0x000007a8                I2D_IRQHandler
+                0x000007a8                PIO0_9_IRQHandler
+ .text.Diag_NFC_IRQHandler
+                0x000007c4       0x74 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+                0x000007c4                Diag_NFC_IRQHandler
+ .text.Diag_Init
+                0x00000838       0x74 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+                0x00000838                Diag_Init
+ .text.Chip_BusSync_WaitSync
+                0x000008ac       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .text.Chip_BusSync_ReadReg
+                0x000008cc       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+                0x000008cc                Chip_BusSync_ReadReg
+ .text.memcpy   0x000008f4        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                0x000008f4                memcpy
+ .text.memset   0x000008fc        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                0x000008fc                memset
+ .text.__weak_main
+                0x00000904        0x8 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+                0x00000904                __weak_main
+                0x00000904                __main
+ .text.__aeabi_division_idivmod
+                0x0000090c       0x78 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+                0x0000090c                __aeabi_idivmod
+                0x0000090c                __aeabi_idiv
+                0x00000912                __aeabi_uidivmod
+                0x00000912                __aeabi_uidiv
+ .text.__aeabi_division_idiv0
+                0x00000984        0x2 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+                0x00000984                __aeabi_idiv0
+ .text.__aeabi_memcpy
+                0x00000986       0x2c c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                0x00000986                __aeabi_memcpy4
+                0x00000986                __aeabi_memcpy8
+                0x00000986                __aeabi_memcpy
+ .text.__aeabi_memset_lowlevel
+                0x000009b2       0x2a c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                0x000009b2                __aeabi_lowlevel_memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.sLeds  0x000009dc        0x4 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                0x000009e0                . = ALIGN (0x4)
+
+.glue_7         0x000009e0        0x0
+ .glue_7        0x000009e0        0x0 linker stubs
+
+.glue_7t        0x000009e0        0x0
+ .glue_7t       0x000009e0        0x0 linker stubs
+
+.vfp11_veneer   0x000009e0        0x0
+ .vfp11_veneer  0x000009e0        0x0 linker stubs
+
+.v4_bx          0x000009e0        0x0
+ .v4_bx         0x000009e0        0x0 linker stubs
+
+.iplt           0x000009e0        0x0
+ .iplt          0x000009e0        0x0 ./src/crp.o
+
+.rel.dyn        0x000009e0        0x0
+ .rel.iplt      0x000009e0        0x0 ./src/crp.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000009e0                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000009e0                __exidx_end = .
+                0x000009e0                _etext = .
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x000009e0
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x000009e0
+ .igot.plt      0x10000000        0x0 ./src/crp.o
+
+.bss            0x10000000        0x8 load address 0x000009e0
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.stickyMEM_WRITE
+                0x10000000        0x4 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .bss.Chip_RTC_AccessCounter
+                0x10000004        0x4 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ *(COMMON)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _ebss = .
+                [!provide]                PROVIDE (end, .)
+
+.noinit         0x10000008       0x64 load address 0x000009e0
+                0x10000008                _noinit = .
+ *(.noinit*)
+ .noinit        0x10000008       0x44 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .noinit        0x1000004c       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+                0x1000006c                . = ALIGN (0x4)
+                0x1000006c                _end_noinit = .
+                [!provide]                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10001ff0                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_SRAM8 - 0x0))
+OUTPUT(app_demo_dp_blinky.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4cea
+ .debug_info    0x00000000       0x3f ./src/crp.o
+ .debug_info    0x0000003f      0x276 ./src/mainblinky.o
+ .debug_info    0x000002b5      0x77b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_info    0x00000a30      0x5e5 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_info    0x00001015      0x7b0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_info    0x000017c5      0x7e5 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_info    0x00001faa      0x769 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_info    0x00002713      0x4df C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_info    0x00002bf2      0x569 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_info    0x0000315b      0x806 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_info    0x00003961      0x632 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_info    0x00003f93      0x376 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_info    0x00004309      0x813 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_info    0x00004b1c      0x1ce C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_abbrev   0x00000000     0x1410
+ .debug_abbrev  0x00000000       0x36 ./src/crp.o
+ .debug_abbrev  0x00000036      0x10a ./src/mainblinky.o
+ .debug_abbrev  0x00000140      0x12c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_abbrev  0x0000026c      0x216 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_abbrev  0x00000482      0x1e9 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_abbrev  0x0000066b      0x20c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_abbrev  0x00000877      0x1cc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_abbrev  0x00000a43      0x151 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_abbrev  0x00000b94      0x169 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_abbrev  0x00000cfd      0x156 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_abbrev  0x00000e53      0x130 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_abbrev  0x00000f83      0x1a8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_abbrev  0x0000112b      0x1e8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_abbrev  0x00001313       0xfd C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_aranges  0x00000000      0x4b8
+ .debug_aranges
+                0x00000000       0x18 ./src/crp.o
+ .debug_aranges
+                0x00000018       0x20 ./src/mainblinky.o
+ .debug_aranges
+                0x00000038       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_aranges
+                0x00000058       0x48 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_aranges
+                0x000000a0       0xc8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_aranges
+                0x00000168       0x58 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_aranges
+                0x000001c0       0x40 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_aranges
+                0x00000200       0x58 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_aranges
+                0x00000258       0x78 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_aranges
+                0x000002d0       0x98 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_aranges
+                0x00000368       0xa0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_aranges
+                0x00000408       0x40 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_aranges
+                0x00000448       0x40 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_aranges
+                0x00000488       0x30 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_macro    0x00000000     0x3a81
+ .debug_macro   0x00000000       0x2b ./src/crp.o
+ .debug_macro   0x0000002b      0x832 ./src/crp.o
+ .debug_macro   0x0000085d       0x1c ./src/crp.o
+ .debug_macro   0x00000879       0x34 ./src/crp.o
+ .debug_macro   0x000008ad      0x1b2 ./src/mainblinky.o
+ .debug_macro   0x00000a5f       0x10 ./src/mainblinky.o
+ .debug_macro   0x00000a6f      0x12d ./src/mainblinky.o
+ .debug_macro   0x00000b9c      0x5b2 ./src/mainblinky.o
+ .debug_macro   0x0000114e       0x22 ./src/mainblinky.o
+ .debug_macro   0x00001170       0x16 ./src/mainblinky.o
+ .debug_macro   0x00001186       0x10 ./src/mainblinky.o
+ .debug_macro   0x00001196       0x22 ./src/mainblinky.o
+ .debug_macro   0x000011b8       0x3a ./src/mainblinky.o
+ .debug_macro   0x000011f2      0x241 ./src/mainblinky.o
+ .debug_macro   0x00001433       0x10 ./src/mainblinky.o
+ .debug_macro   0x00001443      0x12a ./src/mainblinky.o
+ .debug_macro   0x0000156d       0x10 ./src/mainblinky.o
+ .debug_macro   0x0000157d       0xdc ./src/mainblinky.o
+ .debug_macro   0x00001659       0x26 ./src/mainblinky.o
+ .debug_macro   0x0000167f       0x96 ./src/mainblinky.o
+ .debug_macro   0x00001715       0x3b ./src/mainblinky.o
+ .debug_macro   0x00001750       0x28 ./src/mainblinky.o
+ .debug_macro   0x00001778       0x1c ./src/mainblinky.o
+ .debug_macro   0x00001794       0x10 ./src/mainblinky.o
+ .debug_macro   0x000017a4       0x58 ./src/mainblinky.o
+ .debug_macro   0x000017fc      0x1b7 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x000019b3      0x832 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_macro   0x000021e5      0x19f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_macro   0x00002384      0x17d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00002501      0x838 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_macro   0x00002d39      0x1a9 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_macro   0x00002ee2      0x17d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_macro   0x0000305f      0x17d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_macro   0x000031dc      0x1a3 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_macro   0x0000337f      0x189 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_macro   0x00003508      0x18f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_macro   0x00003697       0xb0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_macro   0x00003747      0x1a7 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x000038ee       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_macro   0x000038fe      0x183 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_line     0x00000000     0x47b7
+ .debug_line    0x00000000      0x1f2 ./src/crp.o
+ .debug_line    0x000001f2      0x65e ./src/mainblinky.o
+ .debug_line    0x00000850      0x633 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_line    0x00000e83      0x603 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_line    0x00001486      0x64d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_line    0x00001ad3      0x581 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_line    0x00002054      0x4ed C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_line    0x00002541      0x4db C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_line    0x00002a1c      0x54e C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_line    0x00002f6a      0x56c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_line    0x000034d6      0x596 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_line    0x00003a6c      0x3b9 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_line    0x00003e25      0x4da C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_line    0x000042ff      0x4b8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_str      0x00000000     0x855c
+ .debug_str     0x00000000     0x24c7 ./src/crp.o
+                               0x24d4 (size before relaxing)
+ .debug_str     0x000024c7     0x3d6c ./src/mainblinky.o
+                               0x61ce (size before relaxing)
+ .debug_str     0x00006233      0x306 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+                               0x6269 (size before relaxing)
+ .debug_str     0x00006539      0x145 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+                               0x6002 (size before relaxing)
+ .debug_str     0x0000667e      0x68b C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+                               0x63e1 (size before relaxing)
+ .debug_str     0x00006d09      0x3a8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+                               0x6390 (size before relaxing)
+ .debug_str     0x000070b1      0x1f9 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+                               0x60db (size before relaxing)
+ .debug_str     0x000072aa      0x2d3 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+                               0x62f7 (size before relaxing)
+ .debug_str     0x0000757d      0x326 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+                               0x6071 (size before relaxing)
+ .debug_str     0x000078a3      0x37d C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+                               0x6243 (size before relaxing)
+ .debug_str     0x00007c20      0x4d2 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+                               0x64ce (size before relaxing)
+ .debug_str     0x000080f2      0x1c9 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+                               0x4c15 (size before relaxing)
+ .debug_str     0x000082bb      0x1eb C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+                               0x6203 (size before relaxing)
+ .debug_str     0x000084a6       0xb6 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+                               0x5da4 (size before relaxing)
+
+.comment        0x00000000       0xdc
+ .comment       0x00000000       0x6e ./src/crp.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ./src/mainblinky.o
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .comment       0x0000006e       0x6f C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .comment       0x0000006e       0x6e c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                                 0x6f (size before relaxing)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .comment       0x000000dc       0x6f c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./src/crp.o
+ .ARM.attributes
+                0x00000031       0x31 ./src/mainblinky.o
+ .ARM.attributes
+                0x00000062       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .ARM.attributes
+                0x00000094       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .ARM.attributes
+                0x000000c6       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .ARM.attributes
+                0x000000f8       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .ARM.attributes
+                0x0000012a       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .ARM.attributes
+                0x0000015c       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .ARM.attributes
+                0x0000018e       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .ARM.attributes
+                0x000001c0       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .ARM.attributes
+                0x000001f2       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .ARM.attributes
+                0x00000224       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .ARM.attributes
+                0x00000256       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .ARM.attributes
+                0x00000288       0x32 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+ .ARM.attributes
+                0x000002ba       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x000002eb       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x0000031c       0x31 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x0000034d       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_32.o)
+ .ARM.attributes
+                0x0000036e       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(division_idiv0.o)
+ .ARM.attributes
+                0x0000038f       0x21 c:/nxp/lpcxpresso_8.2.2_650/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libcr_eabihelpers.a(memcpy.o)
+
+.debug_ranges   0x00000000      0x400
+ .debug_ranges  0x00000000       0x10 ./src/mainblinky.o
+ .debug_ranges  0x00000010       0x10 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_ranges  0x00000020       0x50 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_ranges  0x00000070       0xb8 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_ranges  0x00000128       0x60 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_ranges  0x00000188       0x30 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_ranges  0x000001b8       0x48 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_ranges  0x00000200       0x68 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_ranges  0x00000268       0x88 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_ranges  0x000002f0       0x90 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_ranges  0x00000380       0x30 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_ranges  0x000003b0       0x30 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_ranges  0x000003e0       0x20 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_frame    0x00000000      0xa18
+ .debug_frame   0x00000000       0x28 ./src/mainblinky.o
+ .debug_frame   0x00000028       0x28 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(board.o)
+ .debug_frame   0x00000050       0xb0 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_frame   0x00000100      0x1cc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_frame   0x000002cc       0xdc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_frame   0x000003a8       0x88 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_frame   0x00000430       0xac C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_frame   0x000004dc      0x10c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_frame   0x000005e8      0x19c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_frame   0x00000784      0x130 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_frame   0x000008b4       0x78 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_frame   0x0000092c       0x8c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_frame   0x000009b8       0x60 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)
+
+.debug_loc      0x00000000     0x1cec
+ .debug_loc     0x00000000      0x252 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_board_dp\Debug\liblib_board_dp.a(led.o)
+ .debug_loc     0x00000252      0x319 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(clock_nss.o)
+ .debug_loc     0x0000056b      0x425 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(eeprom_nss.o)
+ .debug_loc     0x00000990      0x59c C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(gpio_nss.o)
+ .debug_loc     0x00000f2c      0x181 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(iocon_nss.o)
+ .debug_loc     0x000010ad      0x29e C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(nfc_nss.o)
+ .debug_loc     0x0000134b      0x3b4 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(rtc_nss.o)
+ .debug_loc     0x000016ff      0x176 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(syscon_nss.o)
+ .debug_loc     0x00001875      0x1cc C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(startup.o)
+ .debug_loc     0x00001a41      0x145 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(diag.o)
+ .debug_loc     0x00001b86      0x166 C:\Users\leodavide.torchia2\Downloads\release_mra2_nhs3152\release_mra2_12_4_nhs3152\sw\nss\lib_chip_nss\Debug\liblib_chip_nss.a(bussync_nss.o)

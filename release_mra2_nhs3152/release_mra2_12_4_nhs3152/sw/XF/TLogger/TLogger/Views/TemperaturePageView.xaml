@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:TLogger;assembly=TLogger"
+              BackgroundColor="White"
+              Title="Temperature"     
+              IconImageSource="{local:ImageResource TLogger.Images.temperature.png}"              
+              x:Class="TLogger.Views.TemperaturePageView">
+
+    <ContentPage x:Name="temperatureStatusPage"
+                 ControlTemplate="{StaticResource CommonControlTemplate}"
+                 BackgroundImage="watermark.png"
+                 xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+                 ios:Page.UseSafeArea="true">
+        <Grid x:Name="statusGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="34*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="28*"/>
+                <RowDefinition Height="13*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="1" Source="{Binding StatusIcon}" Aspect="AspectFit"/>
+            <Label IsVisible="{Binding IsNfcIdValid}" Grid.Row="2" Text="{Binding StatusText}" HorizontalOptions="Center" HorizontalTextAlignment="Center" Margin="10,0" TextColor="#8BAED8" FontAttributes="Bold" FontSize="Medium"/>
+            <StackLayout Grid.Row="3">
+                <Label Text="{Binding NdefText}" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#8BAED8" FontSize="Small"/>
+            </StackLayout>
+            <StackLayout Grid.Row="4" VerticalOptions="End">
+                <Label Text="{Binding NdefMimeTypeText}" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#E8B410" FontAttributes="Bold" FontSize="Micro"/>
+                <Label Text="{Binding VersionText}" HorizontalOptions="Center" HorizontalTextAlignment="Center" TextColor="#E8B410" FontAttributes="Bold" FontSize="Micro"/>
+            </StackLayout>
+            <Image IsVisible="{Binding IsNfcIdValid}" Grid.Row="5" Source="{local:ImageResource TLogger.Images.page1.png}" Aspect="AspectFit" />
+
+        </Grid>
+    </ContentPage>
+
+    <ContentPage x:Name="temperatureChartPage"
+                 ControlTemplate="{StaticResource CommonControlTemplate}"
+                 BackgroundImage="watermark.png"
+                 xmlns:converters="clr-namespace:TLogger.Converters" 
+                 xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+                 ios:Page.UseSafeArea="true">
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <converters:StringToColorConverter x:Key="stringToColorConverter"/>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <Grid x:Name="chartGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35*"/>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="42*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0">
+                <Grid RowSpacing="0">
+                    
+                    <Label Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="End" Text="NFC ID" TextColor="#7A7D30" FontSize="Micro" FontAttributes="Bold"/>
+                    <Frame Grid.Row="1" Grid.Column="0" Margin="15,0" BackgroundColor="#F3FACF" BorderColor="#E8B410" HasShadow="False" Padding="5,10">
+                        <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="{Binding NfcIdText}" TextColor="#7A7D30" FontSize="Micro"/>
+                    </Frame>
+
+                    <Label Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="End" Text="Number of measurements" TextColor="#7A7D30" FontSize="Micro" FontAttributes="Bold"/>
+                    <Frame Grid.Row="1" Grid.Column="1" Margin="15,0" BackgroundColor="#F3FACF" BorderColor="#E8B410" HasShadow="False" Padding="5,10">
+                        <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="{Binding NumRecordedText}" TextColor="#7A7D30" FontSize="Micro" />
+                    </Frame>
+
+                    <Label Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="End" Text="Configuration time" TextColor="#7A7D30" FontSize="Micro" FontAttributes="Bold"/>
+                    <Frame Grid.Row="3" Grid.Column="0" Margin="15,0" BackgroundColor="#F3FACF" BorderColor="#E8B410" HasShadow="False" Padding="5,10">
+                        <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="{Binding ConfigurationTimeText}" TextColor="#7A7D30" FontSize="Micro"/>
+                    </Frame>
+
+                    <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="End" Text="Logging for" TextColor="#7A7D30" FontSize="Micro" FontAttributes="Bold"/>
+                    <Frame Grid.Row="3" Grid.Column="1" Margin="15,0" BackgroundColor="#F3FACF" BorderColor="#E8B410" HasShadow="False" Padding="5,10">
+                        <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="{Binding LoggingForText}" TextColor="#7A7D30" FontSize="Micro" />
+                    </Frame>
+
+                </Grid>
+            </StackLayout>
+
+            <WebView Grid.Row="1" Source="{Binding HtmlContentSourceTemperature}"/>
+
+            <StackLayout Grid.Row="2" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding NumRetrievedText}" TextColor="{Binding TextColor, Converter={StaticResource stringToColorConverter}}" FontSize="16" FontAttributes="Bold"/>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="values have been retrieved." TextColor="#7A7D30" FontSize="14" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="Status of the measured values:" TextColor="#7A7D30" FontSize="14" FontAttributes="Bold"/>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding StatusText}" TextColor="{Binding TextColor, Converter={StaticResource stringToColorConverter}}" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="Measurement interval: every" TextColor="#7A7D30" FontSize="14" FontAttributes="Bold"/>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding MeasurementIntervalText}" TextColor="{Binding TextColor, Converter={StaticResource stringToColorConverter}}" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="Minimum valid value:" TextColor="#7A7D30" FontSize="14"  FontAttributes="Bold"/>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding MinLimitText}" TextColor="{Binding TextColor, Converter={StaticResource stringToColorConverter}}" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="Maximum valid value:" TextColor="#7A7D30" FontSize="14"  FontAttributes="Bold"/>
+                    <Label HorizontalOptions="Center" HorizontalTextAlignment="Center" VerticalOptions="Center" VerticalTextAlignment="Center" Text="{Binding MaxLimitText}" TextColor="{Binding TextColor, Converter={StaticResource stringToColorConverter}}" FontSize="16" FontAttributes="Bold"/>
+                </StackLayout>
+            </StackLayout>
+            
+            <Image IsVisible="{Binding IsNfcIdValid}" Grid.Row="3" Source="{local:ImageResource TLogger.Images.page2.png}" Aspect="AspectFit"/>
+
+        </Grid>
+    </ContentPage>
+
+    <ContentPage x:Name="temperatureGraphPage"
+                 ControlTemplate="{StaticResource CommonControlTemplate}"
+                 BackgroundImage="watermark.png"
+                 xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+                 ios:Page.UseSafeArea="true">
+        <Grid x:Name="graphGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="12*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <WebView Grid.Row="0" Source="{Binding HtmlContentSource}"/>
+
+            <Label Grid.Row="1" Text="{Binding InfoText}" FontSize="Micro" HorizontalOptions="Center"/>
+            <Button Grid.Row="2" Text="EXPORT TEMPERATURE VALUES" BackgroundColor="#E8B410" TextColor="White" Margin="20,5" Command="{Binding ButtonCommand}"/>
+            <Image IsVisible="{Binding IsNfcIdValid}" Grid.Row="3" Source="{local:ImageResource TLogger.Images.page3.png}" Aspect="AspectFit"/>
+
+        </Grid>
+    </ContentPage>
+
+</CarouselPage>

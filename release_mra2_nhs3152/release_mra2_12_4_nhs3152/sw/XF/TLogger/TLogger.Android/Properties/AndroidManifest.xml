@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.nxp.nhs31xx.demo.tlogger" android:installLocation="internalOnly" android:versionCode="1000020" android:versionName="20">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
+	<uses-permission android:name="android.permission.NFC" />
+	<application android:label="TLogger" android:allowBackup="false">
+		<provider android:name="android.support.v4.content.FileProvider" android:authorities="com.nxp.nhs31xx.demo.tlogger.fileprovider" android:exported="false" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths" />
+		</provider>
+	</application>
+</manifest>

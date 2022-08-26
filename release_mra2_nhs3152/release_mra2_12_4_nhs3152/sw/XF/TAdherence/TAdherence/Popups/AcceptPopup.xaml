@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popups:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:popups="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                  x:Class="TAdherence.Popups.AcceptPopup">
+        <StackLayout BackgroundColor="White">
+            <WebView VerticalOptions="FillAndExpand" x:Name="acceptWebView"/>
+            <StackLayout Orientation="Horizontal">
+            <Button Text="Accept" Clicked="Button_Clicked" CommandParameter="accept" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent"/>
+            <Button Text="Decline" Clicked="Button_Clicked" CommandParameter="decline" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent"/>
+            </StackLayout>
+        </StackLayout>
+</popups:PopupPage>

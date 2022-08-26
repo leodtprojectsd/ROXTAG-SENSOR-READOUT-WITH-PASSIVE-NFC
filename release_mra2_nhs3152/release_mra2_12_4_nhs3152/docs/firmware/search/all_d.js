@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['offset',['offset',['../a00491.html#ac681806181c80437cfab37335f62ff39',1,'APP_MSG_CMD_GETMEASUREMENTS_T::offset()'],['../a00491.html#ac681806181c80437cfab37335f62ff39',1,'APP_MSG_CMD_GETPERIODICDATA_T::offset()'],['../a00491.html#ac681806181c80437cfab37335f62ff39',1,'APP_MSG_RESPONSE_GETMEASUREMENTS_T::offset()'],['../a00491.html#ac681806181c80437cfab37335f62ff39',1,'APP_MSG_RESPONSE_GETPERIODICDATA_T::offset()']]]
+];

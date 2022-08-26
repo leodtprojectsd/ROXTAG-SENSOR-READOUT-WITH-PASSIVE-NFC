@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['reg',['REG',['../a00456.html#ae191c5e31a382c055b4d351493b09717',1,'NSS_IOCON_T']]],
+  ['removals',['removals',['../a00407.html#ac0fad52aa7c7aff913c1257b06d3d400',1,'MSG_RESPONSE_GETPILLREMOVALS_T']]],
+  ['reserved',['RESERVED',['../a00459.html#a72558984417c249d34c5bb86d256e9ac',1,'NSS_RTC_T']]],
+  ['reserved1',['RESERVED1',['../a00450.html#ac57b398460afa52300075f40094299d7',1,'NSS_EEPROM_T']]],
+  ['reserved2',['RESERVED2',['../a00450.html#aefe3588a2bec78c4181d06f2e5019e6e',1,'NSS_EEPROM_T::RESERVED2()'],['../a00477.html#a0fc429b055e74830a4583ec37f5c3846',1,'MSG_RESPONSE_GETVERSION_T::reserved2()']]],
+  ['reserved3',['RESERVED3',['../a00450.html#a08a60046240f9805539111b7df5671df',1,'NSS_EEPROM_T']]],
+  ['reserved4',['RESERVED4',['../a00450.html#af886e09a9980e04ba9fdc016449ea27c',1,'NSS_EEPROM_T']]],
+  ['reserved5',['RESERVED5',['../a00450.html#a3e0e302f661e4d568505ff8b6206bf02',1,'NSS_EEPROM_T']]],
+  ['reserved6',['RESERVED6',['../a00450.html#ab27c442dac2a73b366e3ed5d976bfb62',1,'NSS_EEPROM_T']]],
+  ['resolution',['resolution',['../a00491.html#a2b8bdf2ccdee1cc9e95e8ec7714b68d2',1,'APP_MSG_CMD_MEASURETEMPERATURE_T']]],
+  ['result',['result',['../a00491.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'APP_MSG_RESPONSE_GETMEASUREMENTS_T::result()'],['../a00491.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'APP_MSG_RESPONSE_GETCONFIG_T::result()'],['../a00491.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'APP_MSG_RESPONSE_MEASURETEMPERATURE_T::result()'],['../a00491.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'APP_MSG_RESPONSE_GETPERIODICDATA_T::result()'],['../a00477.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'MSG_RESPONSE_RESULTONLY_T::result()'],['../a00477.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'MSG_RESPONSE_READREGISTER_T::result()'],['../a00477.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'MSG_RESPONSE_READMEMORY_T::result()'],['../a00477.html#a36692bbc61358ebc0e37a6fc6a395d28',1,'MSG_RESPONSE_CHECKBATTERY_T::result()']]],
+  ['ris',['RIS',['../a00431.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_ADCDAC_T::RIS()'],['../a00452.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_GPIO_T::RIS()'],['../a00454.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_I2D_T::RIS()'],['../a00457.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_NFC_T::RIS()'],['../a00458.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_PMU_T::RIS()'],['../a00459.html#a631dd6cb258aef79568fcda472b79396',1,'NSS_RTC_T::RIS()'],['../a00460.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_SSP_T::RIS()'],['../a00463.html#aef20f9db3bdcf52941c8ac42f14a3c19',1,'NSS_TSEN_T::RIS()']]],
+  ['runningtime',['runningTime',['../a00491.html#ace8ac86192c0220ac77e63e21caecd0a',1,'APP_MSG_CMD_SETCONFIG_T::runningTime()'],['../a00491.html#ace8ac86192c0220ac77e63e21caecd0a',1,'APP_MSG_RESPONSE_GETCONFIG_T::runningTime()']]],
+  ['rwstate',['RWSTATE',['../a00450.html#a21c1af8b14d1c3fcdf8ee2804be96c16',1,'NSS_EEPROM_T']]],
+  ['rx_5fcnt',['rx_cnt',['../a00460.html#a3b1e23a496d25dd87f7b1f223fe0d60c',1,'Chip_SSP_DATA_SETUP_T']]],
+  ['rx_5fdata',['rx_data',['../a00460.html#a145057319bd95286db0e0ad0e635f93f',1,'Chip_SSP_DATA_SETUP_T']]],
+  ['rxbuff',['rxBuff',['../a00453.html#a0aa410ff8cbc01a00b2fa2189e1c2938',1,'I2C_XFER_T']]],
+  ['rxsz',['rxSz',['../a00453.html#a745e2b08d1a5413929a13d9aa30137c5',1,'I2C_XFER_T']]]
+];

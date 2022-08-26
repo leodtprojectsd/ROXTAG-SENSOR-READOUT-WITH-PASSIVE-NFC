@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popups:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:popups="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                  x:Class="TAdherence.Popups.HtmlPopup">
+    <StackLayout BackgroundColor="White">
+        <WebView x:Name="webView" VerticalOptions="FillAndExpand"/>
+        <Button Text="OK" Clicked="Button_Clicked"/>
+    </StackLayout>
+</popups:PopupPage>

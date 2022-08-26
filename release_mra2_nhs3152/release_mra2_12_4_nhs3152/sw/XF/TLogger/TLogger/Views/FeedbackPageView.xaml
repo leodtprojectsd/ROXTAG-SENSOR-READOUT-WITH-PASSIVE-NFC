@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TLogger;assembly=TLogger"
+             ControlTemplate="{StaticResource CommonControlTemplate}"
+             BackgroundImage="watermark.png"
+             Title="Feedback"
+             IconImageSource="{local:ImageResource TLogger.Images.feedback.png}"             
+             x:Class="TLogger.Views.FeedbackPageView">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <BoxView HeightRequest="25"/>
+                <Label Text="NXP values your feedback" TextColor="#C9D221" FontSize="Large" FontAttributes="Bold" 
+                       HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label Text="Help us to improve your experience!" TextColor="#8BAED8" FontSize="Small" FontAttributes="Bold"
+                       HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <BoxView HeightRequest="50"/>
+                <Label Text=
+                   "Let us know about your experience with this application and if you have any ideas to make it better. Please write and send us send us your feedback. You can also choose to attach the application log from your device in case you are facing any issue."
+                   TextColor="#E8B410" FontSize="Small" 
+                   HorizontalOptions="Center" Margin="20,0"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button Text="Write to NXP support" BackgroundColor="#E8B410" TextColor="White"
+                        Margin="20.5" Command="{Binding SupportCommand}"/>
+                <Button Text="Write to NXP Biz Dev" BackgroundColor="#E8B410" TextColor="White"
+                        Margin="20.5" Command="{Binding BizDevCommand}"/>
+                <BoxView HeightRequest="2"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

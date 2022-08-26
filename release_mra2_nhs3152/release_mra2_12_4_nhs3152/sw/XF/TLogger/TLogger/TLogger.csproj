@@ -1,0 +1,166 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>20</ReleaseVersion>
+    <Company>NXP</Company>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\about.png" />
+    <None Remove="Images\CONFIGURED_STATE.png" />
+    <None Remove="Images\Delay Measure.png" />
+    <None Remove="Images\error.png" />
+    <None Remove="Images\feedback.png" />
+    <None Remove="Images\history.png" />
+    <None Remove="Images\Interval Measure.png" />
+    <None Remove="Images\LOGGING_STATE.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\ok.png" />
+    <None Remove="Images\page1.png" />
+    <None Remove="Images\page2.png" />
+    <None Remove="Images\page3.png" />
+    <None Remove="Images\PRISTINE_STATE.png" />
+    <None Remove="Images\screen1.png" />
+    <None Remove="Images\set.png" />
+    <None Remove="Images\settings.png" />
+    <None Remove="Images\STARTING_STATE.png" />
+    <None Remove="Images\Stop Measure.png" />
+    <None Remove="Images\STOPPED_BROWN_OUT.png" />
+    <None Remove="Images\STOPPED_DISK_FULL.png" />
+    <None Remove="Images\STOPPED_EXPIRED.png" />
+    <None Remove="Images\STOPPED_STATE.png" />
+    <None Remove="Images\temperature.png" />
+    <None Remove="Images\TEMP_TOO_HIGH_STATE.png" />
+    <None Remove="Images\TEMP_TOO_LOW_STATE.png" />
+    <None Remove="Images\UNKNOWN_STATE.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\shared\Common\CustomWebView.cs" Link="Renderers\CustomWebView.cs" />
+    <Compile Include="..\shared\Common\IBaseUrl.cs" Link="Interfaces\IBaseUrl.cs" />
+    <Compile Include="..\shared\Common\IBuildDateTime.cs" Link="Interfaces\IBuildDateTime.cs" />
+    <Compile Include="..\shared\Common\IShareFile.cs" Link="Interfaces\IShareFile.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\about.png" />
+    <EmbeddedResource Include="Images\CONFIGURED_STATE.png" />
+    <EmbeddedResource Include="Images\Delay Measure.png" />
+    <EmbeddedResource Include="Images\Interval Measure.png" />
+    <EmbeddedResource Include="Images\page1.png" />
+    <EmbeddedResource Include="Images\error.png" />
+    <EmbeddedResource Include="Images\feedback.png" />
+    <EmbeddedResource Include="Images\history.png" />
+    <EmbeddedResource Include="Images\LOGGING_STATE.png" />
+    <EmbeddedResource Include="Images\logo.png" />
+    <EmbeddedResource Include="Images\ok.png" />
+    <EmbeddedResource Include="Images\page2.png" />
+    <EmbeddedResource Include="Images\page3.png" />
+    <EmbeddedResource Include="Images\PRISTINE_STATE.png" />
+    <EmbeddedResource Include="Images\screen1.png" />
+    <EmbeddedResource Include="Images\set.png" />
+    <EmbeddedResource Include="Images\settings.png" />
+    <EmbeddedResource Include="Images\STARTING_STATE.png" />
+    <EmbeddedResource Include="Images\Stop Measure.png" />
+    <EmbeddedResource Include="Images\STOPPED_BROWN_OUT.png" />
+    <EmbeddedResource Include="Images\STOPPED_DISK_FULL.png" />
+    <EmbeddedResource Include="Images\STOPPED_EXPIRED.png" />
+    <EmbeddedResource Include="Images\STOPPED_STATE.png" />
+    <EmbeddedResource Include="Images\temperature.png" />
+    <EmbeddedResource Include="Images\TEMP_TOO_HIGH_STATE.png" />
+    <EmbeddedResource Include="Images\TEMP_TOO_LOW_STATE.png" />
+    <EmbeddedResource Include="Images\UNKNOWN_STATE.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Refractored.MvvmHelpers" Version="1.3.0" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.2" />
+    <PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.657" />
+    <PackageReference Include="Xamarin.Forms.InputKit" Version="3.3.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Helpers\Helpers.csproj" />
+    <ProjectReference Include="..\..\Msg\Msg.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Renderers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Popups\AppSettingsPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\DataProcessPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\LicensePopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\MeasurementDurationPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\MeasurementIntervalPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\MeasurementStartupDelayPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\ConfirmPopup.xaml.cs">
+      <DependentUpon>ConfirmPopup.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\OkPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\ConfigParamsPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\SetConfigPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Popups\TemperatureLimitsPopup.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AcceptPageView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ConfigurationPageView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MainPageView.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AboutPageView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\FeedbackPageView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HistoryPageView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TemperaturePageView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

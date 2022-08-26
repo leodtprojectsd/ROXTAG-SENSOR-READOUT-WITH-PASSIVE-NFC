@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TLogger;assembly=TLogger"
+             ControlTemplate="{StaticResource CommonControlTemplate}"
+             BackgroundImage="watermark.png"
+             Title="About"
+             IconImageSource="{local:ImageResource TLogger.Images.about.png}"             
+             x:Class="TLogger.Views.AboutPageView">
+    <ContentPage.Content>
+        <Grid Padding="10,20">
+            <WebView Source="{Binding UrlContentSource}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

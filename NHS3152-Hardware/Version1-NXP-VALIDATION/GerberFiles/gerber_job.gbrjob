@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-11-02T11:48:20Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "SKematic-NXP-Validation v7"
+        },
+        "Owner": "leo davide torchia <leodavide.torchia2@unibo.it>",
+        "Size": {
+            "X": 53.828,
+            "Y": 41.326
+        }
+    }
+}

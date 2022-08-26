@@ -1,0 +1,12 @@
+The nuget packages
+- Rg.Plugins.Popup
+- Xam.Plugin.Screenshot
+- Xamarin.Essentials
+are adapted by NXP, to include support for macOS.
+
+The adapted nuget packages can be recognized by the .NTAG postfix.
+
+These branch versions were used as starting point:
+- https://github.com/rotorgames/Rg.Plugins.Popup/pull/226/commits - commit 7744b4a
+- Xam.Plugin.Screenshot
+- https://github.com/xamarin/Essentials/tree/af18956e726b1ec6f77afb29300fc8bd84cde54f

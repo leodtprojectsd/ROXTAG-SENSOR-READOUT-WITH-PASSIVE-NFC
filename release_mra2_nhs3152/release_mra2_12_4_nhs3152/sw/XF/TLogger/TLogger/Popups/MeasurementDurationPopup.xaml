@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="TLogger.Popups.MeasurementDurationPopup"
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 xmlns:numeric="clr-namespace:TLogger.Popups">
+
+    <Frame CornerRadius="10" Margin="10" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White" HasShadow="False">
+        <ScrollView>
+            <StackLayout>
+
+                <Label Text="Measurement Duration" TextColor="Black" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Image x:Name="icon" HeightRequest="50" WidthRequest="50" Aspect="AspectFit"/>
+                <BoxView HeightRequest="2"/>
+
+                <Frame BorderColor="Gray" HasShadow="False">
+                    <Button Text="Until Storage is Full" Clicked="OnFullButton"/>
+                </Frame>
+                <BoxView HeightRequest="2"/>
+
+                <Frame BorderColor="Gray" HasShadow="False">
+                    <Grid HorizontalOptions="Center">
+                        <Entry x:Name="Value" Grid.Column="0" Keyboard="Numeric" ClearButtonVisibility="WhileEditing" HorizontalTextAlignment="End">
+                            <Entry.Triggers>
+                                <EventTrigger Event="TextChanged">
+                                    <numeric:NumericPositiveTriggerAction/>
+                                </EventTrigger>
+                            </Entry.Triggers>
+                        </Entry>
+                        <Picker x:Name="Unit" Grid.Column="1">
+                            <Picker.Items>
+                                <x:String>seconds</x:String>
+                                <x:String>minutes</x:String>
+                                <x:String>hours</x:String>
+                            </Picker.Items>
+                            <Picker.SelectedIndex>2</Picker.SelectedIndex>
+                        </Picker>
+                    </Grid>
+                </Frame>
+
+                <BoxView HeightRequest="2"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="OK" Clicked="OnOkButton"/>
+                    <Button Text="Cancel" Clicked="OnCancelButton"/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </Frame>
+</popup:PopupPage>

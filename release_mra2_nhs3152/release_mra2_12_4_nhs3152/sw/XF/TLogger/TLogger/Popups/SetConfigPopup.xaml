@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="TLogger.Popups.SetConfigPopup"
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout VerticalOptions="CenterAndExpand"  Padding="20,0" HorizontalOptions="FillAndExpand">
+        <Frame CornerRadius="10" Padding="0" BackgroundColor="White" HasShadow="False">
+            <StackLayout Padding="10,20">
+                <BoxView/>
+                <Label x:Name="Info" FontSize="Medium" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <BoxView/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="iosNfc" Text="Enable NFC" Clicked="OnIosNfcButton" IsVisible="False" 
+                            HorizontalOptions="CenterAndExpand"/>
+                    <Button x:Name="button" Text="Cancel" Clicked="OnCancelButton" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+
+                <BoxView/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</popup:PopupPage>

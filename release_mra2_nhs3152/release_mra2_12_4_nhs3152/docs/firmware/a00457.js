@@ -1,0 +1,55 @@
+var a00457 =
+[
+    [ "NSS_NFC_T", "a00457.html#a00654", [
+      [ "CFG", "a00457.html#aab6e57de9accaf9c2c24a5f70b948161", null ],
+      [ "SR", "a00457.html#aa4e5f09c578d8d5c138b41a1e740df3f", null ],
+      [ "CMDIN", "a00457.html#a431b9a07a6decaa4742f8d42856e209e", null ],
+      [ "DATAOUT", "a00457.html#a331d89a0fc18b448e88f69861075c68c", null ],
+      [ "TARGET", "a00457.html#a26502dd0937cfc3766aeae0fa50e000f", null ],
+      [ "LAST_ACCESS", "a00457.html#a05209a47d2b46335ce7834b8fddaa0ec", null ],
+      [ "IMSC", "a00457.html#aadaeb8eaf11a1ac2952008e4f5aea459", null ],
+      [ "RIS", "a00457.html#aef20f9db3bdcf52941c8ac42f14a3c19", null ],
+      [ "MIS", "a00457.html#ab93d8e22f60836895e96cc388310dd90", null ],
+      [ "IC", "a00457.html#ab1f951e9e696c8e4df1c84282bcf3299", null ],
+      [ "RESERVED0", "a00457.html#a11dfea9da970652f2b688bf4d95ee949", null ],
+      [ "BUF", "a00457.html#a353b1f0fca4ef80ff84c60c027c20dff", null ]
+    ] ],
+    [ "NFC_SHARED_MEM_BYTE_SIZE", "a00457.html#gac7d03f279b83abdbaef3a81ea3b0e30d", null ],
+    [ "NFC_SHARED_MEM_WORD_SIZE", "a00457.html#gaf021be64378958b58145358ce4ad8d23", null ],
+    [ "NFC_SHARED_MEM_START", "a00457.html#ga1b243f9c41906b360e91f96941ccbedf", null ],
+    [ "NFC_SHARED_MEM_END", "a00457.html#ga88dc5d98dd45911a16e4441feac56b3a", null ],
+    [ "NFC_INT_T", "a00457.html#gadc1c0828fcebab2311e7c89040b2dc19", [
+      [ "NFC_INT_RFPOWER", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a011779b82a02f53687dd5a57bb901ba9", null ],
+      [ "NFC_INT_RFSELECT", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a9053ea7aed85752a1fa4344211380395", null ],
+      [ "NFC_INT_MEMREAD", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19ad8dd4ee73d815356c8ceb53406c9ce93", null ],
+      [ "NFC_INT_MEMWRITE", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a449ed3ad2dcb16b03978076c5a0f10b2", null ],
+      [ "NFC_INT_CMDWRITE", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19aa59e67d64700bfb48a959982dda2a78b", null ],
+      [ "NFC_INT_CMDREAD", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a190e3670918c8b55e40eaac280425580", null ],
+      [ "NFC_INT_TARGETWRITE", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a77d23daaa82cf9f8b9b8337754a029eb", null ],
+      [ "NFC_INT_TARGETREAD", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a5aed387eb6871afa72a4ff3067921205", null ],
+      [ "NFC_INT_NFCOFF", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a7d4aa3785b8c7df436858a1bc63dbae9", null ],
+      [ "NFC_INT_NONE", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19adbf9abe7f91631a7caeb0d6f810733f8", null ],
+      [ "NFC_INT_ALL", "a00457.html#ggadc1c0828fcebab2311e7c89040b2dc19a6ef50e13b54353fb20d0402e537d2f1d", null ]
+    ] ],
+    [ "NFC_STATUS_T", "a00457.html#gacdc2a513359f5dded7a6e436c4415fb0", [
+      [ "NFC_STATUS_POR", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0ad2409fc3f5460e7dc4a3314ff0b7488d", null ],
+      [ "NFC_STATUS_1V2", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0adb89902cf22fc92d314544b1ff42cda7", null ],
+      [ "NFC_STATUS_1V5", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0a0608a14420981ffae2abe6776888f105", null ],
+      [ "NFC_STATUS_PLL", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0a004c3ffd449c39002a22ced6479e51c8", null ],
+      [ "NFC_STATUS_SEL", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0aa81710bfdf5b65994ec90eab10660dba", null ],
+      [ "NFC_STATUS_AUTH", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0ad5e03d67e24eefae227753663b582dc7", null ],
+      [ "NFC_STATUS_BYPASS", "a00457.html#ggacdc2a513359f5dded7a6e436c4415fb0a66da6dd353c821624e707e0dd0367c8a", null ]
+    ] ],
+    [ "Chip_NFC_Init", "a00457.html#ga97c0696317d3a042bf0fdc3600343d07", null ],
+    [ "Chip_NFC_DeInit", "a00457.html#ga94a6be0b879c3d4a399c0b92d0bc2117", null ],
+    [ "Chip_NFC_GetStatus", "a00457.html#ga3828afc5a9f1924c258e3df17d6db803", null ],
+    [ "Chip_NFC_Int_SetEnabledMask", "a00457.html#ga225cc9a29c0554cc93cde2932a260cf9", null ],
+    [ "Chip_NFC_Int_GetEnabledMask", "a00457.html#ga35fafbf837200e65db6529a26c52b942", null ],
+    [ "Chip_NFC_Int_GetRawStatus", "a00457.html#gaa206042f7affe5f2efdf71f8f8f202a0", null ],
+    [ "Chip_NFC_Int_ClearRawStatus", "a00457.html#ga08831a88eb590c1e809adb0ec59fc26c", null ],
+    [ "Chip_NFC_SetTargetAddress", "a00457.html#ga41aa5b25020e9c8e1fece604a0a602b2", null ],
+    [ "Chip_NFC_GetTargetAddress", "a00457.html#ga505e4010f303f78f3e005355a98a6918", null ],
+    [ "Chip_NFC_GetLastAccessInfo", "a00457.html#gaeb209cd131a574dc55292278315619de", null ],
+    [ "Chip_NFC_WordWrite", "a00457.html#ga00118a8870bbd2dd895419d41449a580", null ],
+    [ "Chip_NFC_ByteRead", "a00457.html#gad58ba55c1f91a639bdd520f6900f2730", null ]
+];

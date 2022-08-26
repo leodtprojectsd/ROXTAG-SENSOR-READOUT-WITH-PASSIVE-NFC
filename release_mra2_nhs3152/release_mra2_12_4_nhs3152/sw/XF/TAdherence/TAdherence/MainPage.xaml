@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TAdherence.MainPage">
+    <StackLayout Margin="20,35,20,20" Spacing="10">
+        <Label Text="NHS31xx Therapy Adherence demo" FontSize="Title" FontAttributes="Bold"/>
+        <BoxView HeightRequest="2" BackgroundColor="Black"/>
+        <Button Text="Start a new pill monitoring session" Clicked="OnActionButtonClicked" CommandParameter="start"/>
+        <Button Text="Read out the current status" Clicked="OnActionButtonClicked" CommandParameter="read"/>
+        <Button Text="Stop and clear the current session" Clicked="OnActionButtonClicked" CommandParameter="stop"/>
+        <BoxView HeightRequest="2" BackgroundColor="Black"/>
+        <Label Text="Choose an action above, then tap a tag" x:Name="label" FontSize="Medium" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" LineBreakMode="WordWrap" />
+        <BoxView HeightRequest="2" BackgroundColor="Black"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="About" Clicked="OnCollateralClicked" CommandParameter="about" BackgroundColor="Transparent" />
+            <Button Text="License" Clicked="OnCollateralClicked" CommandParameter="license" HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent"/>
+            <Button Text="Contact" Clicked="OnCollateralClicked" CommandParameter="contact" BackgroundColor="Transparent"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

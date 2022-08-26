@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="TLogger.Popups.LicensePopup"
+                 xmlns:renderers="clr-namespace:Renderers"
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="FillAndExpand" Padding="20,0">
+        <!-- OutlineColor is workaround for scrolling problem on UWP -->
+        <Frame OutlineColor="White" CornerRadius="10" Padding="0" BackgroundColor="White" HasShadow="False">
+            <StackLayout Padding="10,20">
+
+                <WebView x:Name="LicenseWebView" HeightRequest="600"/>
+                <Button Text="OK" Clicked="OnOkButton" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</popup:PopupPage>

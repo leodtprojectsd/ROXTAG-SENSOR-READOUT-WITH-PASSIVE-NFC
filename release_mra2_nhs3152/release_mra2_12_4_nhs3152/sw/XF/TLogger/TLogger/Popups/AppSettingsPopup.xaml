@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"                 
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 x:Class="TLogger.Popups.AppSettingsPopup">
+
+    <Frame CornerRadius="10" Margin="10" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White"
+           HasShadow="False">
+
+
+        <StackLayout>
+            <StackLayout>
+                <BoxView HeightRequest="3"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60*"/>
+                        <ColumnDefinition Width="40*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Temperature display unit" TextColor="#E8B410" VerticalOptions="Center"
+                           HorizontalOptions="Start" FontSize="Micro" FontAttributes="Bold" Margin="20,0"/>
+                    <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="°C" TextColor="#E8B410" VerticalOptions="Center"
+                               FontSize="Micro" FontAttributes="Bold"/>
+                        <Switch x:Name="celsiusFahrenheitSelect" OnColor="#C9D221"/>
+                        <Label Text="°F" TextColor="#E8B410" VerticalOptions="Center"
+                               FontSize="Micro" FontAttributes="Bold"/>
+                    </StackLayout>
+                </Grid>
+                <BoxView HeightRequest="1"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="  HISTORY" BackgroundColor="#E8B410" TextColor="White"/>
+                <BoxView HeightRequest="3"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60*"/>
+                        <ColumnDefinition Width="40*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Save history of configurations" TextColor="#E8B410" 
+                           VerticalOptions="Center" HorizontalOptions="Start" FontSize="Micro" FontAttributes="Bold"
+                           Margin="20,0"/>
+                    <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="Center">
+                        <Switch x:Name="isHistory" OnColor="#C9D221"/>
+                    </StackLayout>
+                </Grid>
+                <BoxView HeightRequest="1"/>
+                <BoxView HeightRequest="1" Color="#E8B410" HorizontalOptions="FillAndExpand"/>
+                <Button Grid.Row="1" Text="CLEAR HISTORY" BackgroundColor="#E8B410" TextColor="White"
+                        Margin="20,5" Clicked="OnClearHistory"/>
+
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="  LOGGING" BackgroundColor="#E8B410" TextColor="White"/>
+                <BoxView HeightRequest="3"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60*"/>
+                        <ColumnDefinition Width="40*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Log all NFC communication" TextColor="#E8B410" 
+                           VerticalOptions="Center" HorizontalOptions="Start" FontSize="Micro" FontAttributes="Bold"
+                           Margin="20,0"/>
+                    <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="Center">
+                        <Switch x:Name="isLogging" OnColor="#C9D221"/>
+                    </StackLayout>
+                </Grid>
+                <BoxView HeightRequest="1"/>
+                <BoxView HeightRequest="1" Color="#E8B410" HorizontalOptions="FillAndExpand"/>
+                <Button Grid.Row="1" Text="CLEAR LOG" BackgroundColor="#E8B410" TextColor="White"
+                        Margin="20,5" Clicked="OnClearLogs"/>
+                <BoxView HeightRequest="1" Color="#E8B410" HorizontalOptions="FillAndExpand"/>
+
+            </StackLayout>
+
+            <BoxView HeightRequest="10"/>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="OK" Clicked="OnOkButton"/>
+                <Button Text="Cancel" Clicked="OnCancelButton"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </Frame>
+
+</popup:PopupPage>

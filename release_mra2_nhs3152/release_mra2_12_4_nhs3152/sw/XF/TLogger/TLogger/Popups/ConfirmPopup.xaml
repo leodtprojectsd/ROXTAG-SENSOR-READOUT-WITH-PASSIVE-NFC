@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="TLogger.Popups.ConfirmPopup"
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <Frame CornerRadius="10" Margin="10" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White"
+           HasShadow="False">
+        <StackLayout>
+            <Label x:Name="title" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <!--
+                <Image x:Name="icon" HeightRequest="50" WidthRequest="50" Aspect="AspectFit"/> 
+-->
+            <BoxView HeightRequest="2"/>
+
+            <Label x:Name="info" HorizontalOptions="Center"/>
+
+            <BoxView HeightRequest="2"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Text="Yes" Clicked="OnOkButton"/>
+                <Button Text="No" Clicked="OnCancelButton"/>
+            </StackLayout>
+
+        </StackLayout>
+    </Frame>
+
+
+</popup:PopupPage>

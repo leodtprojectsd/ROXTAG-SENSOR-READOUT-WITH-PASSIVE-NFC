@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TLogger;assembly=TLogger"
+             ControlTemplate="{StaticResource CommonControlTemplate}"
+             BackgroundImage="watermark.png"
+             Title="Config"
+             IconImageSource="{local:ImageResource TLogger.Images.settings.png}"             
+             x:Class="TLogger.Views.ConfigurationPageView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="IconColor">#7bb1db</Color>
+            <Color x:Key="BackgroundColor">#f2f7fb</Color>
+            <Color x:Key="MenuColor">#f9b500</Color>
+            <x:Double x:Key="ImageSize">50</x:Double>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+
+            <BoxView HeightRequest="5"/>
+
+            <Grid RowSpacing="8">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="80*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+
+               
+                <Image Grid.Row="0" Grid.Column="1" HeightRequest="{StaticResource ImageSize}"
+                       WidthRequest="{StaticResource ImageSize}"
+                       Source="{local:ImageResource TLogger.Images.Delay Measure.png}"/>
+                <Grid Grid.Row="0" Grid.Column="2" BackgroundColor="{StaticResource BackgroundColor}">
+                    <Label Margin="4" HorizontalOptions="Start" VerticalOptions="Center" 
+                           Text="{Binding MeasurementStartupDelayText}"/>
+                </Grid>
+                <ContentView Grid.Row="0" Grid.Column="3">
+                    <OnPlatform x:TypeArguments="View">
+                        <On Platform="Android, iOS, UWP">
+                            <ImageButton Command="{Binding MeasurementStartupDelayButtonCommand}" 
+                                         BackgroundColor="{StaticResource MenuColor}" 
+                                         HeightRequest="{StaticResource ImageSize}"
+                                         Source="{local:ImageResource TLogger.Images.set.png}"/>
+                        </On>
+                        <On Platform="macOS">
+                            <Image BackgroundColor="{StaticResource MenuColor}" 
+                                   HeightRequest="{StaticResource ImageSize}"
+                                   Source="{local:ImageResource TLogger.Images.set.png}">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding MeasurementStartupDelayButtonCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </On>
+                    </OnPlatform>
+                </ContentView>
+                
+                <Image Grid.Row="1" Grid.Column="1" HeightRequest="{StaticResource ImageSize}"
+                       WidthRequest="{StaticResource ImageSize}"
+                       Source="{local:ImageResource TLogger.Images.Interval Measure.png}"/>
+                <Grid Grid.Row="1" Grid.Column="2" BackgroundColor="{StaticResource BackgroundColor}">
+                    <Label Margin="4" HorizontalOptions="Start" VerticalOptions="Center" 
+                           Text="{Binding MeasurementIntervalText}"/>
+                </Grid>
+                <ContentView Grid.Row="1" Grid.Column="3">
+                    <OnPlatform x:TypeArguments="View">
+                        <On Platform="Android, iOS, UWP">
+                            <ImageButton Command="{Binding MeasurementIntervalButtonCommand}"
+                                         BackgroundColor="{StaticResource MenuColor}" 
+                                         HeightRequest="{StaticResource ImageSize}"
+                                         Source="{local:ImageResource TLogger.Images.set.png}"/>
+                        </On>
+                        <On Platform="macOS">
+                            <Image BackgroundColor="{StaticResource MenuColor}" 
+                                   HeightRequest="{StaticResource ImageSize}"
+                                   Source="{local:ImageResource TLogger.Images.set.png}">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding MeasurementIntervalButtonCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </On>
+                    </OnPlatform>
+                </ContentView>
+
+                <Image Grid.Row="2" Grid.Column="1"  HeightRequest="{StaticResource ImageSize}"
+                       WidthRequest="{StaticResource ImageSize}"
+                       Source="{local:ImageResource TLogger.Images.Stop Measure.png}"/>
+                <Grid Grid.Row="2" Grid.Column="2" BackgroundColor="{StaticResource BackgroundColor}">
+                    <Label Margin="4" HorizontalOptions="Start" VerticalOptions="Center" 
+                           Text="{Binding MeasurementDurationText}"/>
+                </Grid>
+                <ContentView Grid.Row="2" Grid.Column="3">
+                    <OnPlatform x:TypeArguments="View">
+                        <On Platform="Android, iOS, UWP">
+                            <ImageButton  Command="{Binding MeasurementDurationButtonCommand}" 
+                                          BackgroundColor="{StaticResource MenuColor}"  
+                                          HeightRequest="{StaticResource ImageSize}"
+                                          Source="{local:ImageResource TLogger.Images.set.png}"/>
+                        </On>
+                        <On Platform="macOS">
+                            <Image BackgroundColor="{StaticResource MenuColor}"  
+                                   HeightRequest="{StaticResource ImageSize}"
+                                   Source="{local:ImageResource TLogger.Images.set.png}">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding MeasurementDurationButtonCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </On>
+                    </OnPlatform>
+                </ContentView>
+
+                <Image Grid.Row="3" Grid.Column="1" WidthRequest="{StaticResource ImageSize}"
+                       HeightRequest="{StaticResource ImageSize}"
+                       Source="{local:ImageResource TLogger.Images.temperature.png}"/>
+                <Grid Grid.Row="3" Grid.Column="2" BackgroundColor="{StaticResource BackgroundColor}">
+                    <Label Margin="4" HorizontalOptions="Start" VerticalOptions="Center" 
+                           Text="{Binding TemperatureLimitsText}"/>
+                </Grid>
+                <ContentView Grid.Row="3" Grid.Column="3">
+                    <OnPlatform x:TypeArguments="View">
+                        <On Platform="Android, iOS, UWP">
+                            <ImageButton  Command="{Binding TemperatureLimitsButtonCommand}" 
+                                          BackgroundColor="{StaticResource MenuColor}" 
+                                          HeightRequest="{StaticResource ImageSize}"
+                                          Source="{local:ImageResource TLogger.Images.set.png}"/>
+                        </On>
+                        <On Platform="macOS">
+                            <Image BackgroundColor="{StaticResource MenuColor}" 
+                                   HeightRequest="{StaticResource ImageSize}"
+                                   Source="{local:ImageResource TLogger.Images.set.png}">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding TemperatureLimitsButtonCommand}"/>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </On>
+                    </OnPlatform>
+                </ContentView>
+            </Grid>
+
+            <BoxView HeightRequest="5"/>
+
+            <StackLayout Orientation="Horizontal" Margin="5,0">
+                <Button Text="Set Configuration" HorizontalOptions="FillAndExpand" Command="{Binding SetConfigurationButtonCommand}"/>
+                <Button Text="Reset Tag" HorizontalOptions="FillAndExpand" Command="{Binding ResetTagButtonCommand}"/>
+            </StackLayout>
+          
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    
+    

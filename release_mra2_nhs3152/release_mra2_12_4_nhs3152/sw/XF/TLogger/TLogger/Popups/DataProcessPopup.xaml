@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<popup:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 x:Class="TLogger.Popups.DataProcessPopup"
+                 xmlns:popup="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout VerticalOptions="{x:OnPlatform Android='Center', iOS='Start', UWP='Center', macOS='Center'}"  
+                 Padding="20,0">
+        <Frame CornerRadius="10" Padding="0" BackgroundColor="White" HasShadow="False">
+            <StackLayout Padding="10,20">
+                <BoxView/>
+                <Label x:Name="DataProcessLabel" TextColor="Black" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <BoxView/>
+                <ProgressBar x:Name="DataProcessProgressBar"/>
+                <BoxView/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+
+</popup:PopupPage>
+

@@ -1,7 +1,9 @@
-# Passive NFC Sensor Readout
+# ROXTAG - SENSOR READOUT WITH PASSIVE NFC
 This Repo contians all the information to make a Passive NFC based Sensor readout, based on measuring DC resitnace.  
 
 This Repo  uses an NFC based RFID chip (NHS3152) to detect a resistance of a device under test (DUT). An RFID is a tag that harvest EM energy to power a microchip and communicate with a device (in our case, an Android Phone). The project was born to Measure the resistance of a radiation sensor (relating changes in R to radiation absorbed), however it generalized to any DUT that needs a DC resistance measurement. The system is completely passive, harvesting the EM radiation to i) power the chip, ii) probe the DUT iii)communicate with reader (eg. phone), allowing to work battery free. This is useful for enviromental sensing applications, and anything where a battery integration would be too bulky/impractival/expensive. 
+
+For more info about project structure look at README.pdf 
 
 <b>Project structure</b><br />
 The project is divided in 3 parts: 

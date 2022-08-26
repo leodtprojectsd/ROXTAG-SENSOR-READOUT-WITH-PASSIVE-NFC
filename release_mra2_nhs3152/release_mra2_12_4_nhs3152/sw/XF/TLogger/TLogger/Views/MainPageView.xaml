@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TLogger;assembly=TLogger"
+            xmlns:views="clr-namespace:TLogger.Views;assembly=TLogger"
+            BackgroundColor="White"
+            BarBackgroundColor="#F9F9F9"
+            SelectedTabColor="#E8B410"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"             
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            android:TabbedPage.IsSmoothScrollEnabled="False"
+            x:Class="TLogger.Views.MainPageView">
+
+    <NavigationPage.TitleView>
+        <Image Source="{local:ImageResource TLogger.Images.logo.png}" HeightRequest="30" Aspect="AspectFit" Margin="0,5"/>
+    </NavigationPage.TitleView>
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Order="Secondary" Text="App Settings" Clicked="OnAppSettings"/>
+    </TabbedPage.ToolbarItems>
+
+    <views:TemperaturePageView/>
+    <views:HistoryPageView/>
+    <views:FeedbackPageView/>
+    <views:AboutPageView/>
+</TabbedPage>
+
